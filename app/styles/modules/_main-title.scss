@@ -1,0 +1,46 @@
+main {
+  margin: 0;
+  padding: 0;
+
+  .container {
+    background-color: white;
+    border-radius: 10px;
+    height: 700px;
+    margin-top: 20px;
+
+    @media screen and (min-width: 650px) {
+      float: left;
+      width: 48%;
+      margin-left: 2%;
+    }
+  }
+
+  h1 {
+    margin: 0;
+    padding: 10px;
+  }
+
+  small {
+    padding: 10px;
+    color: #555;
+  }
+
+  a {
+    padding: 5px;
+    color: blue;
+    text-decoration: none;
+  }
+
+  img {
+    width: 96%;
+    max-height: 220px;
+    max-width: 600px;
+    padding-left: 10px;
+  }
+
+  p {
+    padding: 10px;
+    font-size: .95rem;
+    color: #555;
+  }
+}

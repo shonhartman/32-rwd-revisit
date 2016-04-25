@@ -1,0 +1,40 @@
+@import "modules/nav-bar";
+@import "modules/_main-title";
+@import "modules/_sidebar";
+
+#small-input {
+  width: 75px;
+  height: 20px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 10px 10px 0 0;
+  border-radius: 3px;
+  outline: 0;
+  border: none;
+  text-align: center;
+
+  @media screen and (min-width: 650px) {
+    display: none;
+  }
+
+  }
+
+  #large-input {
+    width: 125px;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px 10px 0 0;
+    border-radius: 3px;
+    outline: 0;
+    border: none;
+    text-align: center;
+    display: none;
+
+    @media screen and (min-width: 650px) {
+      display: block;
+    }
+
+  }

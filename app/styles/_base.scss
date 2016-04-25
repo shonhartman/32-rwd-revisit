@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  line-height: 1.5;
+}
+
+footer {
+  color: white;
+
+  @media screen and (min-width: 650px) {
+    float: left;
+    clear: both;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+}
